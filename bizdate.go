@@ -8,12 +8,13 @@ package datatypes
  * @Mobile: 13911223211
  * @Date: 2021-10-13 22:53:56
  * @LastEditors: devuser@gmail.com
- * @LastEditTime: 2021-10-13 23:39:24
+ * @LastEditTime: 2021-10-14 01:08:20
  */
 
 import (
 	"database/sql"
 	"database/sql/driver"
+	"encoding/json"
 	"time"
 
 	log "github.com/sirupsen/logrus"
@@ -47,9 +48,10 @@ func (date *Bizdate) GobDecode(b []byte) error {
 }
 
 func (date Bizdate) MarshalJSON() ([]byte, error) {
+	// return time.Time(date).MarshalJSON()
 	v := time.Time(date).Format("2006-01-02")
 	log.Println(v)
-	return []byte(v), nil
+	return json.RawMessage([]byte(v)).MarshalJSON()
 }
 
 func (date *Bizdate) UnmarshalJSON(b []byte) error {
