@@ -4,8 +4,7 @@ package datatypes
  * @Descripttion:
  * @version:
  * @Author: devuser@gmail.com
- * @Wechat: PythonBJ
- * @Mobile: 13911223211
+
  * @Date: 2021-08-10 11:15:00
  * @LastEditors: devuser@gmail.com
  * @LastEditTime: 2022-01-11 14:17:24

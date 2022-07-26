@@ -4,11 +4,9 @@ package datatypes
  * @Descripttion:
  * @version:
  * @Author: devuser@gmail.com
- * @Wechat: PythonBJ
- * @Mobile: 13911223211
  * @Date: 2022-07-26 15:55:44
  * @LastEditors: devuser@gmail.com
- * @LastEditTime: 2022-07-26 15:55:46
+ * @LastEditTime: 2022-07-26 16:02:00
  */
 
 import (
