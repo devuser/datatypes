@@ -10,7 +10,8 @@ require (
 	gorm.io/driver/postgres v1.1.2
 	gorm.io/driver/sqlite v1.1.6
 	gorm.io/driver/sqlserver v1.1.0
-	gorm.io/gorm v1.23.8
+	gorm.io/gorm v1.21.16
+
 )
 
 require (

@@ -1,5 +1,16 @@
 package datatypes
 
+/*
+ * @Descripttion:
+ * @version:
+ * @Author: devuser@gmail.com
+ * @Wechat: PythonBJ
+ * @Mobile: 13911223211
+ * @Date: 2021-10-28 11:55:13
+ * @LastEditors: devuser@gmail.com
+ * @LastEditTime: 2022-07-15 10:53:03
+ */
+
 import (
 	"database/sql/driver"
 	"encoding/json"
